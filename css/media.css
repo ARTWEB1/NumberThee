@@ -1,0 +1,537 @@
+@media (max-width: 1200px) {
+
+    .hero__title {
+        font-size: 50px;
+    } 
+
+
+    .benefits__content {
+        flex-direction: column;
+    }
+
+    .benefits__icon {
+        margin-bottom: 15px;
+    }
+
+
+
+    .course__img {
+        width: 330px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    
+    .hero__title {
+        max-width: 385px;
+        min-height: 92px;
+
+        font-size: 50px;
+    } 
+
+
+    .hero__descr {
+        max-width: 345px;
+        /* width: 345px; */
+        min-height: 94px;
+    }
+
+    .hero__content {
+        padding: 130px 0 135px 0;
+    }
+
+
+    .benefits__content {
+        flex-direction: column;
+    }
+
+    .benefits__icon {
+        margin-bottom: 15px;
+    }
+
+    .benefits__title3 {
+        max-width: 380px;
+        min-height: 74px;
+    }
+
+    .benefits__text {
+        max-width: 450px;
+        min-height: 130px;
+    }
+
+    .benefits__textt {
+        max-width: 210px;
+        min-height: 68px;
+    }
+
+    .course__img {
+        width: 330px;
+    }
+
+    .course__textname {
+        max-width: 261px;
+        min-height: 20px;
+    }
+
+    .course__text {
+        /* width: 330px; */
+        max-width: 330px;
+        min-height: 89px;
+    }
+
+
+    .courses__content {
+        min-height: 376px;
+    }
+
+
+    .courses__btn {
+        padding: 20px 55px;
+    }
+
+    .tiem {
+        right: 11px;
+        
+    }
+
+    .courses__text1 {
+        max-width: 254px;
+        /* width: 254px; */
+        min-height: 20px;
+    }
+
+    .courses__text2 {
+        max-width: 270px;
+        /* width: 270px; */
+        min-height: 196px;
+    }
+
+}
+
+@media (max-width: 750px){
+     
+    .header__container {
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .header__logo {
+        margin-right: 0;
+        margin-bottom: 30px;
+     }
+
+
+
+    .hero__img {
+        display: none;
+    }
+
+
+    .course__img {
+        width: 240px;
+    }
+
+    
+    .course__text {
+
+    }
+
+
+    .courses__btn {
+        padding: 20px 48px ;
+    }
+
+    .courses__content{
+        min-height: 429px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+
+     .header__container {
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .header__logo {
+        margin-right: 0;
+        margin-bottom: 30px;
+     }
+
+     .hero__img {
+        display: none;
+     }
+
+
+     .benefits__title3 {
+        max-width: 330px;
+        min-height: 114px;
+     }
+
+     .benefits__text {
+        max-width: 330px;
+        min-height: 179px;
+     }
+
+     .benefits__container {
+        margin-bottom: 60px;
+     }
+
+     .benefits__textt {
+        max-width: 150px;
+        min-height: 86px;
+     }
+
+
+     .course__img {
+        width: 240px;
+     }
+
+     .course__text {
+        width: 240px;
+        max-width: 240px;
+        min-height: 113px;
+     }
+
+
+     .courses__content {
+        min-height: 427px;
+     }
+
+
+     .courses__btn {
+        padding: 21px 40px;
+     }
+
+     .courses__text2 {
+        max-width: 180px;
+        min-height: 257px;
+     }
+
+
+
+
+
+    }
+
+
+@media (max-width: 570px) {
+
+    .header__logo {
+        margin-right: auto;
+        margin-bottom: 0;
+    }
+
+    .header__navigeihen {
+        display: none;
+    }
+
+    .header__container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .burger {
+        position: relative;
+        display: block;
+        margin-left: 15px;
+        
+        color: #fff;
+
+        margin-right: 79px;
+    }
+
+    
+     
+    .burger__liner {
+        position: absolute;
+        left: 50%;
+        width: 30px;
+        height: 3px;
+        border-radius: inherit;
+        background-color: currentColor;
+        transform: translateX(-50%);
+      }
+    
+      .burger__liner:nth-child(1) {
+        top: 7px;
+      }
+    
+      .burger__liner:nth-child(2) {
+        left: 50%;
+        transform: translate(-50%, -95%);
+    
+      }
+    
+      .burger__liner:nth-child(3) {
+        bottom: 10px;
+      }
+
+
+    
+    
+    .hero__content {
+        padding: 50px 0;
+    }
+
+    .hero__container {
+        margin-bottom: 50px;
+    }
+
+
+    .hero__title {
+
+        max-width: 226px;
+        min-height: 55px;
+        margin-bottom: 15px;
+
+        font-size: 30px;
+
+    }
+
+
+    .hero__descr {
+        max-width: 290px;
+        min-height: 73px;
+
+        font-size: 16px;
+    }
+
+    .benefits__img1 {
+        display: none;
+    }
+
+    .benefits__conten {
+        margin-left: 0;
+    }
+
+    .benefits__content {
+        flex-direction: row;
+    }
+
+    .benefits__item {
+        margin-bottom: 36px;
+    }
+
+    .benefits__textt {
+        max-width: 180px;
+        min-height: 67px;
+
+
+    }
+
+    .benefits__container{
+        margin-bottom: 50px;
+    }
+
+
+    .course__title2 {
+        max-width: 266px;
+        min-height: 14px;
+
+        font-size: 20px;
+    }
+
+
+    .courses__titile {
+        max-width: 266px;
+        min-height: 14px;
+
+        font-size: 20px;
+    }
+
+    .course__img{
+        width: 290px;
+    }
+
+
+    .courses__img {
+        max-width: 290px;
+    }
+
+    .courses__card {
+        max-width: 290px;
+        margin:  0 auto;
+        margin-bottom: 30px;
+    }
+
+
+    .course__content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+    
+@media (max-width: 320px) {
+
+    .header__navigeihen {
+        display: none;
+    }
+
+    .header__container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .header__logo {
+        margin-bottom: 0;
+        margin-right: auto;
+    }
+
+    
+
+    .burger {
+        position: relative;
+        display: block;
+        margin-left: 15px;
+        
+        color: #fff;
+
+        margin-right: 79px;
+    }
+
+    
+     
+    .burger__liner {
+        position: absolute;
+        left: 50%;
+        width: 30px;
+        height: 3px;
+        border-radius: inherit;
+        background-color: currentColor;
+        transform: translateX(-50%);
+      }
+    
+      .burger__liner:nth-child(1) {
+        top: 7px;
+      }
+    
+      .burger__liner:nth-child(2) {
+        left: 50%;
+        transform: translate(-50%, -95%);
+    
+      }
+    
+      .burger__liner:nth-child(3) {
+        bottom: 10px;
+      }
+
+
+        .hero__title {
+            max-width: 226px;
+            min-height: 55px;
+            margin-bottom: 15px;
+
+            font-size: 30px;
+        }
+
+        .hero__descr {
+            max-width: 290px;
+            min-height: 73px;
+            margin-bottom: 50px;
+
+            font-size: 16px;
+        }
+
+        .hero__container{
+            margin-bottom: 50px;
+        }
+
+        .hero__content {
+            padding: 50px 0 50px 0;
+        }
+
+
+        .benefits__img1 {
+            display: none;
+        }
+
+
+        .benefits__conten {
+            margin-left: 0;
+        }
+
+        .benefits__title3 {
+            max-width: 290px;
+            min-height: 46px;
+            margin-bottom: 15px;
+
+            font-size: 20px
+        }
+
+        .benefits__text {
+            max-width: 290px;
+            min-height: 202px;
+
+            font-size: 16px;
+        }
+
+
+        .benefits__content {
+            flex-direction: row;
+        }
+
+        .benefits__item {
+            margin-bottom: 36px;
+        }
+
+        .benefits__textt {
+            max-width: 180px;
+            min-height: 67px;
+        }
+
+        .course__container {
+            padding: 50px 0;
+        }
+
+
+        .course__title2 {
+            max-width: 266px;
+            min-height: 14px;
+
+            font-size: 20px;
+            margin-bottom: 30px;
+        } 
+
+        .course__img {
+            width: 290px;
+        }
+
+        .course__textname {
+            max-width: 253px;
+            min-height: 20px;
+        }
+
+        .course__text {
+            max-width: 290px;
+            min-height: 89px;
+            width: 290px;
+        }
+
+        .courses__card {
+            width: 290px;
+        }
+
+        .courses__text1 {
+            max-width: 195px;
+            min-height: 41px;
+        }
+
+        .courses__text2 {
+            max-width: 228px;
+            min-height: 233px;
+        }
+
+        .courses__img {
+            width: 290px;
+        }
+        
+    }
